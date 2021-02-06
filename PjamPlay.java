@@ -7,7 +7,7 @@ package PjamProject1;
 
 /**
  *
- * @author activ
+ * @author activ, phillip
  */
 public class PjamPlay extends javax.swing.JFrame {
 
@@ -27,133 +27,214 @@ public class PjamPlay extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jButton15 = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
-        jButton17 = new javax.swing.JButton();
-        jButton18 = new javax.swing.JButton();
-        jButton19 = new javax.swing.JButton();
-        jButton20 = new javax.swing.JButton();
-        jButton21 = new javax.swing.JButton();
-        jButton22 = new javax.swing.JButton();
-        jButton23 = new javax.swing.JButton();
-        jButton24 = new javax.swing.JButton();
-        jButton25 = new javax.swing.JButton();
-        jButton26 = new javax.swing.JButton();
-        jButton27 = new javax.swing.JButton();
-        jButton28 = new javax.swing.JButton();
-        jButton29 = new javax.swing.JButton();
-        jButton30 = new javax.swing.JButton();
-        jButton31 = new javax.swing.JButton();
-        jButton32 = new javax.swing.JButton();
-        jButton33 = new javax.swing.JButton();
-        jButton34 = new javax.swing.JButton();
-        jButton35 = new javax.swing.JButton();
-        jButton36 = new javax.swing.JButton();
+        jButtonA = new javax.swing.JButton();
+        jButtonB = new javax.swing.JButton();
+        jButtonC = new javax.swing.JButton();
+        jButtonD = new javax.swing.JButton();
+        jButtonE = new javax.swing.JButton();
+        jButtonF = new javax.swing.JButton();
+        jButtonG = new javax.swing.JButton();
+        jButtonH = new javax.swing.JButton();
+        jButtonI = new javax.swing.JButton();
+        jButtonJ = new javax.swing.JButton();
+        jButtonK = new javax.swing.JButton();
+        jButtonL = new javax.swing.JButton();
+        jButtonM = new javax.swing.JButton();
+        jButtonN = new javax.swing.JButton();
+        jButtonO = new javax.swing.JButton();
+        jButtonP = new javax.swing.JButton();
+        jButtonQ = new javax.swing.JButton();
+        jButtonR = new javax.swing.JButton();
+        jButtonS = new javax.swing.JButton();
+        jButtonT = new javax.swing.JButton();
+        jButtonU = new javax.swing.JButton();
+        jButtonV = new javax.swing.JButton();
+        jButtonW = new javax.swing.JButton();
+        jButtonX = new javax.swing.JButton();
+        jButtonY = new javax.swing.JButton();
+        jButtonZ = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jButton13.setText("B");
-
-        jButton14.setText("C");
-
-        jButton15.setText("A");
-        jButton15.addMouseListener(new java.awt.event.MouseAdapter() {
+        jButtonA.setText("A");
+        jButtonA.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton15MouseClicked(evt);
+                jButtonAMouseClicked(evt);
             }
         });
 
-        jButton16.setText("E");
-        jButton16.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton16ActionPerformed(evt);
+        jButtonB.setText("B");
+        jButtonB.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonBMouseClicked(evt);
             }
         });
 
-        jButton17.setText("D");
-
-        jButton18.setText("G");
-        jButton18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton18ActionPerformed(evt);
+        jButtonC.setText("C");
+        jButtonC.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonCMouseClicked(evt);
             }
         });
 
-        jButton19.setText("F");
-        jButton19.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton19ActionPerformed(evt);
+        jButtonD.setText("D");
+        jButtonD.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonDMouseClicked(evt);
             }
         });
 
-        jButton20.setText("I");
-
-        jButton21.setText("H");
-        jButton21.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton21ActionPerformed(evt);
+        jButtonE.setText("E");
+        jButtonE.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonEMouseClicked(evt);
             }
         });
 
-        jButton22.setText("J");
-
-        jButton23.setText("K");
-
-        jButton24.setText("L");
-
-        jButton25.setText("P");
-        jButton25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton25ActionPerformed(evt);
+        jButtonF.setText("F");
+        jButtonF.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonFMouseClicked(evt);
             }
         });
 
-        jButton26.setText("S");
-        jButton26.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton26ActionPerformed(evt);
+        jButtonG.setText("G");
+        jButtonG.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonGMouseClicked(evt);
             }
         });
 
-        jButton27.setText("R");
-        jButton27.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton27ActionPerformed(evt);
+        jButtonH.setText("H");
+        jButtonH.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonHMouseClicked(evt);
             }
         });
 
-        jButton28.setText("U");
-
-        jButton29.setText("T");
-        jButton29.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton29ActionPerformed(evt);
+        jButtonI.setText("I");
+        jButtonI.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonIMouseClicked(evt);
             }
         });
 
-        jButton30.setText("N");
-
-        jButton31.setText("V");
-
-        jButton32.setText("O");
-
-        jButton33.setText("W");
-
-        jButton34.setText("M");
-        jButton34.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton34ActionPerformed(evt);
+        jButtonJ.setText("J");
+        jButtonJ.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonJMouseClicked(evt);
             }
         });
 
-        jButton35.setText("X");
+        jButtonK.setText("K");
+        jButtonK.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonKMouseClicked(evt);
+            }
+        });
 
-        jButton36.setText("Q");
-        jButton36.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton36ActionPerformed(evt);
+        jButtonL.setText("L");
+        jButtonL.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonLMouseClicked(evt);
+            }
+        });
+
+        jButtonM.setText("M");
+        jButtonM.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonMMouseClicked(evt);
+            }
+        });
+
+        jButtonN.setText("N");
+        jButtonN.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonNMouseClicked(evt);
+            }
+        });
+
+        jButtonO.setText("O");
+        jButtonO.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonOMouseClicked(evt);
+            }
+        });
+
+        jButtonP.setText("P");
+        jButtonP.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonPMouseClicked(evt);
+            }
+        });
+
+        jButtonQ.setText("Q");
+        jButtonQ.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonQMouseClicked(evt);
+            }
+        });
+
+        jButtonR.setText("R");
+        jButtonR.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonRMouseClicked(evt);
+            }
+        });
+
+        jButtonS.setText("S");
+        jButtonS.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonSMouseClicked(evt);
+            }
+        });
+
+        jButtonT.setText("T");
+        jButtonT.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonTMouseClicked(evt);
+            }
+        });
+
+        jButtonU.setText("U");
+        jButtonU.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonUMouseClicked(evt);
+            }
+        });
+
+        jButtonV.setText("V");
+        jButtonV.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonVMouseClicked(evt);
+            }
+        });
+
+        jButtonW.setText("W");
+        jButtonW.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonWMouseClicked(evt);
+            }
+        });
+
+        jButtonX.setText("X");
+        jButtonX.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonXMouseClicked(evt);
+            }
+        });
+
+        jButtonY.setText("Y");
+        jButtonY.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonYMouseClicked(evt);
+            }
+        });
+
+        jButtonZ.setText("Z");
+        jButtonZ.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonZMouseClicked(evt);
             }
         });
 
@@ -162,150 +243,234 @@ public class PjamPlay extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGap(25, 25, 25)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jButton15)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton13)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton14)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton17)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton16)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton19)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton18)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton21)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton20)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton22)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton23)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton24))
+                        .addComponent(jButtonJ, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonK, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonL, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonM, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonN, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonO, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonP, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonQ, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonR, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jButton34)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton30)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton32)
-                        .addGap(10, 10, 10)
-                        .addComponent(jButton25)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton36)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton27)
-                        .addGap(10, 10, 10)
-                        .addComponent(jButton26)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton29)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton28)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton31)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton33, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton35)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(jButtonA, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonB, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonC, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonD, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonE, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonF, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonG, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonH, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonI, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jButtonS, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonT, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonU, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonV, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonW, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonX, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonY, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonZ, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(32, 32, 32)))
+                .addGap(26, 26, 26))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(325, Short.MAX_VALUE)
+                .addContainerGap(269, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton18)
-                    .addComponent(jButton17)
-                    .addComponent(jButton16)
-                    .addComponent(jButton15)
-                    .addComponent(jButton14)
-                    .addComponent(jButton13)
-                    .addComponent(jButton19)
-                    .addComponent(jButton20)
-                    .addComponent(jButton21)
-                    .addComponent(jButton22)
-                    .addComponent(jButton23)
-                    .addComponent(jButton24))
+                    .addComponent(jButtonA)
+                    .addComponent(jButtonB)
+                    .addComponent(jButtonC)
+                    .addComponent(jButtonD)
+                    .addComponent(jButtonE)
+                    .addComponent(jButtonF)
+                    .addComponent(jButtonG)
+                    .addComponent(jButtonH)
+                    .addComponent(jButtonI))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton26)
-                    .addComponent(jButton25)
-                    .addComponent(jButton36)
-                    .addComponent(jButton34)
-                    .addComponent(jButton32)
-                    .addComponent(jButton30)
-                    .addComponent(jButton27)
-                    .addComponent(jButton28)
-                    .addComponent(jButton29)
-                    .addComponent(jButton31)
-                    .addComponent(jButton33)
-                    .addComponent(jButton35))
-                .addContainerGap())
+                    .addComponent(jButtonK)
+                    .addComponent(jButtonL)
+                    .addComponent(jButtonM)
+                    .addComponent(jButtonN)
+                    .addComponent(jButtonO)
+                    .addComponent(jButtonP)
+                    .addComponent(jButtonQ)
+                    .addComponent(jButtonR)
+                    .addComponent(jButtonJ))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButtonU)
+                    .addComponent(jButtonV)
+                    .addComponent(jButtonW)
+                    .addComponent(jButtonX)
+                    .addComponent(jButtonY)
+                    .addComponent(jButtonZ)
+                    .addComponent(jButtonT)
+                    .addComponent(jButtonS))
+                .addGap(20, 20, 20))
         );
 
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
-        // TODO add your handling code here:
-        jButton15.setEnabled(false); 
-    }//GEN-LAST:event_jButton21ActionPerformed
+    private void jButtonAMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonAMouseClicked
+        // Disable button when clicked
+        jButtonA.setEnabled(false);
+    }//GEN-LAST:event_jButtonAMouseClicked
 
-    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
-        // TODO add your handling code here:
-        jButton16.setEnabled(false); 
-    }//GEN-LAST:event_jButton16ActionPerformed
+    private void jButtonBMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonBMouseClicked
+        // Disable button when clicked
+        jButtonB.setEnabled(false);
+    }//GEN-LAST:event_jButtonBMouseClicked
 
-    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
-        // TODO add your handling code here:
-        jButton19.setEnabled(false); 
-    }//GEN-LAST:event_jButton19ActionPerformed
+    private void jButtonCMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonCMouseClicked
+        // Disable button when clicked
+        jButtonC.setEnabled(false); 
+    }//GEN-LAST:event_jButtonCMouseClicked
 
-    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
-        // TODO add your handling code here:
-        jButton18.setEnabled(false); 
-    }//GEN-LAST:event_jButton18ActionPerformed
+    private void jButtonDMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonDMouseClicked
+        // Disable button when clicked
+        jButtonD.setEnabled(false);
+    }//GEN-LAST:event_jButtonDMouseClicked
 
-    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
-        // TODO add your handling code here:
-        jButton26.setEnabled(false); 
-    }//GEN-LAST:event_jButton26ActionPerformed
+    private void jButtonEMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonEMouseClicked
+        // Disable button when clicked
+        jButtonE.setEnabled(false);
+    }//GEN-LAST:event_jButtonEMouseClicked
 
-    private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
-        // TODO add your handling code here:
-        jButton27.setEnabled(false); 
-    }//GEN-LAST:event_jButton27ActionPerformed
+    private void jButtonFMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonFMouseClicked
+        // Disable button when clicked
+        jButtonF.setEnabled(false);
+    }//GEN-LAST:event_jButtonFMouseClicked
 
-    private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
-        // TODO add your handling code here:
-        jButton29.setEnabled(false); 
-    }//GEN-LAST:event_jButton29ActionPerformed
+    private void jButtonGMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonGMouseClicked
+        // Disable button when clicked
+        jButtonG.setEnabled(false);
+    }//GEN-LAST:event_jButtonGMouseClicked
 
-    private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
-        // TODO add your handling code here:
-        jButton36.setEnabled(false); 
-    }//GEN-LAST:event_jButton36ActionPerformed
+    private void jButtonHMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonHMouseClicked
+        // Disable button when clicked
+        jButtonH.setEnabled(false);
+    }//GEN-LAST:event_jButtonHMouseClicked
 
-    private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
-        // TODO add your handling code here:
-        jButton34.setEnabled(false); 
-    }//GEN-LAST:event_jButton34ActionPerformed
+    private void jButtonIMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonIMouseClicked
+        // Disable button when clicked
+        jButtonI.setEnabled(false);
+    }//GEN-LAST:event_jButtonIMouseClicked
 
-    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
-        // TODO add your handling code here:
-        jButton25.setEnabled(false); 
-    }//GEN-LAST:event_jButton25ActionPerformed
+    private void jButtonJMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonJMouseClicked
+        // Disable button when clicked
+        jButtonJ.setEnabled(false);
+    }//GEN-LAST:event_jButtonJMouseClicked
 
-    private void jButton15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton15MouseClicked
-        // TODO add your handling code here: A
-        jButton15.setEnabled(false); 
-    }//GEN-LAST:event_jButton15MouseClicked
+    private void jButtonKMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonKMouseClicked
+        // Disable button when clicked
+        jButtonK.setEnabled(false);
+    }//GEN-LAST:event_jButtonKMouseClicked
+
+    private void jButtonLMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonLMouseClicked
+        // Disable button when clicked
+        jButtonL.setEnabled(false);
+    }//GEN-LAST:event_jButtonLMouseClicked
+
+    private void jButtonMMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonMMouseClicked
+        // Disable button when clicked
+        jButtonM.setEnabled(false);
+    }//GEN-LAST:event_jButtonMMouseClicked
+
+    private void jButtonNMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonNMouseClicked
+        // Disable button when clicked
+        jButtonN.setEnabled(false);
+    }//GEN-LAST:event_jButtonNMouseClicked
+
+    private void jButtonOMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonOMouseClicked
+        // Disable button when clicked
+        jButtonO.setEnabled(false);
+    }//GEN-LAST:event_jButtonOMouseClicked
+
+    private void jButtonPMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonPMouseClicked
+        // Disable button when clicked
+        jButtonP.setEnabled(false);
+    }//GEN-LAST:event_jButtonPMouseClicked
+
+    private void jButtonQMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonQMouseClicked
+        // Disable button when clicked
+        jButtonQ.setEnabled(false);
+    }//GEN-LAST:event_jButtonQMouseClicked
+
+    private void jButtonRMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonRMouseClicked
+        // Disable button when clicked
+        jButtonR.setEnabled(false);
+    }//GEN-LAST:event_jButtonRMouseClicked
+
+    private void jButtonSMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonSMouseClicked
+        // Disable button when clicked
+        jButtonS.setEnabled(false);
+    }//GEN-LAST:event_jButtonSMouseClicked
+
+    private void jButtonTMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonTMouseClicked
+        // Disable button when clicked
+        jButtonT.setEnabled(false);
+    }//GEN-LAST:event_jButtonTMouseClicked
+
+    private void jButtonUMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonUMouseClicked
+        // Disable button when clicked
+        jButtonU.setEnabled(false);
+    }//GEN-LAST:event_jButtonUMouseClicked
+
+    private void jButtonVMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonVMouseClicked
+        // Disable button when clicked
+        jButtonV.setEnabled(false);
+    }//GEN-LAST:event_jButtonVMouseClicked
+
+    private void jButtonWMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonWMouseClicked
+        // Disable button when clicked
+        jButtonW.setEnabled(false);
+    }//GEN-LAST:event_jButtonWMouseClicked
+
+    private void jButtonXMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonXMouseClicked
+        // Disable button when clicked
+        jButtonX.setEnabled(false);
+    }//GEN-LAST:event_jButtonXMouseClicked
+
+    private void jButtonYMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonYMouseClicked
+        // Disable button when clicked
+        jButtonY.setEnabled(false);
+    }//GEN-LAST:event_jButtonYMouseClicked
+
+    private void jButtonZMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonZMouseClicked
+        // Disable button when clicked
+        jButtonZ.setEnabled(false);
+    }//GEN-LAST:event_jButtonZMouseClicked
 
     /**
      * @param args the command line arguments
@@ -343,29 +508,31 @@ public class PjamPlay extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
-    private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
-    private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton24;
-    private javax.swing.JButton jButton25;
-    private javax.swing.JButton jButton26;
-    private javax.swing.JButton jButton27;
-    private javax.swing.JButton jButton28;
-    private javax.swing.JButton jButton29;
-    private javax.swing.JButton jButton30;
-    private javax.swing.JButton jButton31;
-    private javax.swing.JButton jButton32;
-    private javax.swing.JButton jButton33;
-    private javax.swing.JButton jButton34;
-    private javax.swing.JButton jButton35;
-    private javax.swing.JButton jButton36;
+    private javax.swing.JButton jButtonA;
+    private javax.swing.JButton jButtonB;
+    private javax.swing.JButton jButtonC;
+    private javax.swing.JButton jButtonD;
+    private javax.swing.JButton jButtonE;
+    private javax.swing.JButton jButtonF;
+    private javax.swing.JButton jButtonG;
+    private javax.swing.JButton jButtonH;
+    private javax.swing.JButton jButtonI;
+    private javax.swing.JButton jButtonJ;
+    private javax.swing.JButton jButtonK;
+    private javax.swing.JButton jButtonL;
+    private javax.swing.JButton jButtonM;
+    private javax.swing.JButton jButtonN;
+    private javax.swing.JButton jButtonO;
+    private javax.swing.JButton jButtonP;
+    private javax.swing.JButton jButtonQ;
+    private javax.swing.JButton jButtonR;
+    private javax.swing.JButton jButtonS;
+    private javax.swing.JButton jButtonT;
+    private javax.swing.JButton jButtonU;
+    private javax.swing.JButton jButtonV;
+    private javax.swing.JButton jButtonW;
+    private javax.swing.JButton jButtonX;
+    private javax.swing.JButton jButtonY;
+    private javax.swing.JButton jButtonZ;
     // End of variables declaration//GEN-END:variables
 }
