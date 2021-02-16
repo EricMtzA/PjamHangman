@@ -40,7 +40,7 @@ public class TitleFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Hangman");
-        setBackground(java.awt.Color.black);
+        setBackground(java.awt.Color.magenta);
         setName("titleFrame"); // NOI18N
         setPreferredSize(new java.awt.Dimension(600, 400));
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -49,7 +49,7 @@ public class TitleFrame extends javax.swing.JFrame {
             }
         });
 
-        titlePanel.setBackground(java.awt.Color.black);
+        titlePanel.setBackground(java.awt.Color.magenta);
         titlePanel.setPreferredSize(new java.awt.Dimension(600, 400));
         titlePanel.setSize(600, 400);
 
