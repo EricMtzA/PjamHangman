@@ -27,15 +27,19 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="wrongLettersDisplay" min="-2" pref="134" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
-                          <Component id="wordUI" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                      <Component id="wordUI" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="skipButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="342" max="-2" attributes="0"/>
+                              <Component id="wrongLettersDisplay" min="-2" pref="134" max="-2" attributes="0"/>
+                          </Group>
                           <Group type="103" groupAlignment="1" attributes="0">
                               <Component id="clockLabel" min="-2" pref="208" max="-2" attributes="0"/>
                               <Group type="102" attributes="0">
@@ -112,47 +116,55 @@
           <Group type="102" alignment="1" attributes="0">
               <Component id="clockLabel" min="-2" pref="32" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="wrongLettersDisplay" min="-2" pref="110" max="-2" attributes="0"/>
-              <EmptySpace pref="53" max="32767" attributes="0"/>
-              <Component id="wordUI" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="wordLines" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jButtonA" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonB" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonC" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonD" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonE" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonF" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonG" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonH" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonI" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="wrongLettersDisplay" min="-2" pref="110" max="-2" attributes="0"/>
+                      <EmptySpace pref="53" max="32767" attributes="0"/>
+                      <Component id="wordUI" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="wordLines" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButtonA" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonB" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonC" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonD" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonE" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonF" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonG" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonH" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonI" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButtonK" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonM" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonN" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonO" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonP" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonQ" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonR" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonJ" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButtonU" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonV" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonW" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonX" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonY" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonZ" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonT" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonS" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="skipButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jButtonK" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonL" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonM" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonN" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonO" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonP" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonQ" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonR" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonJ" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jButtonU" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonV" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonW" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonX" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonY" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonZ" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonT" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButtonS" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -422,5 +434,13 @@
         </DimensionLayout>
       </Layout>
     </Container>
+    <Component class="javax.swing.JButton" name="skipButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SKIP"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="skipButtonMouseClicked"/>
+      </Events>
+    </Component>
   </SubComponents>
 </Form>

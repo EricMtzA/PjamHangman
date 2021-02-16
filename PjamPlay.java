@@ -181,6 +181,7 @@ public class PjamPlay extends javax.swing.JFrame {
                 }
             }
         };
+        skipButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -406,19 +407,29 @@ public class PjamPlay extends javax.swing.JFrame {
             .addGap(0, 28, Short.MAX_VALUE)
         );
 
+        skipButton.setText("SKIP");
+        skipButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                skipButtonMouseClicked(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(wrongLettersDisplay, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(77, 77, 77)
-                            .addComponent(wordUI, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(25, 25, 25)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(77, 77, 77)
+                        .addComponent(wordUI, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(25, 25, 25)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(skipButton)
+                                .addGap(342, 342, 342)
+                                .addComponent(wrongLettersDisplay, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                 .addComponent(clockLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 208, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGroup(layout.createSequentialGroup()
@@ -484,44 +495,49 @@ public class PjamPlay extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addComponent(clockLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(wrongLettersDisplay, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 53, Short.MAX_VALUE)
-                .addComponent(wordUI, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(wordLines, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButtonA)
-                    .addComponent(jButtonB)
-                    .addComponent(jButtonC)
-                    .addComponent(jButtonD)
-                    .addComponent(jButtonE)
-                    .addComponent(jButtonF)
-                    .addComponent(jButtonG)
-                    .addComponent(jButtonH)
-                    .addComponent(jButtonI))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButtonK)
-                    .addComponent(jButtonL)
-                    .addComponent(jButtonM)
-                    .addComponent(jButtonN)
-                    .addComponent(jButtonO)
-                    .addComponent(jButtonP)
-                    .addComponent(jButtonQ)
-                    .addComponent(jButtonR)
-                    .addComponent(jButtonJ))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButtonU)
-                    .addComponent(jButtonV)
-                    .addComponent(jButtonW)
-                    .addComponent(jButtonX)
-                    .addComponent(jButtonY)
-                    .addComponent(jButtonZ)
-                    .addComponent(jButtonT)
-                    .addComponent(jButtonS))
-                .addGap(20, 20, 20))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(wrongLettersDisplay, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 53, Short.MAX_VALUE)
+                        .addComponent(wordUI, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(wordLines, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jButtonA)
+                            .addComponent(jButtonB)
+                            .addComponent(jButtonC)
+                            .addComponent(jButtonD)
+                            .addComponent(jButtonE)
+                            .addComponent(jButtonF)
+                            .addComponent(jButtonG)
+                            .addComponent(jButtonH)
+                            .addComponent(jButtonI))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jButtonK)
+                            .addComponent(jButtonL)
+                            .addComponent(jButtonM)
+                            .addComponent(jButtonN)
+                            .addComponent(jButtonO)
+                            .addComponent(jButtonP)
+                            .addComponent(jButtonQ)
+                            .addComponent(jButtonR)
+                            .addComponent(jButtonJ))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jButtonU)
+                            .addComponent(jButtonV)
+                            .addComponent(jButtonW)
+                            .addComponent(jButtonX)
+                            .addComponent(jButtonY)
+                            .addComponent(jButtonZ)
+                            .addComponent(jButtonT)
+                            .addComponent(jButtonS))
+                        .addGap(20, 20, 20))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(skipButton)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
 
         pack();
@@ -1201,6 +1217,13 @@ public class PjamPlay extends javax.swing.JFrame {
 
     }//GEN-LAST:event_formWindowOpened
 
+    private void skipButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_skipButtonMouseClicked
+        skipButton.setEnabled(false);
+        highScore = 0;
+        endGame = true;
+        repaint();
+    }//GEN-LAST:event_skipButtonMouseClicked
+
     //Function that displays and updates time and date on top right every 0.1 seconds
     public void startClock() {
         Timer timer = new Timer(100, new ActionListener() {
@@ -1279,6 +1302,7 @@ public class PjamPlay extends javax.swing.JFrame {
     private javax.swing.JButton jButtonX;
     private javax.swing.JButton jButtonY;
     private javax.swing.JButton jButtonZ;
+    private javax.swing.JButton skipButton;
     private javax.swing.JPanel wordLines;
     private javax.swing.JPanel wordUI;
     private java.awt.Label wrongLettersDisplay;
